@@ -155,3 +155,33 @@ https://www.youtube.com/watch?v=3yqDxhR2XxE&t=136s
        ```
 
     - Electron 12.0.0부턴 `contextIsolation: false`를 적용해야 한다고 함.
+
+14. MediaRecorder 생성
+
+    인자로 stream과 비디오 옵션 넘김.
+
+15. 이벤트 핸들러 등록
+
+    녹화 시작이면 모든 기록을 저장하는 이벤트를 , 종료면 비디오 파일을 저장하는 이벤트를
+
+16. 비디오를 저장할 경로와 비디오 이름을 지정하고 FS 모듈을 사용해 비디오 저장
+
+
+
+## 후기
+
+대충 Electron이 어떤 건지는 알았다.
+
+다만 해당 영상이 현 시점으로부터 1년전의 영상임에도 불구하고 몇몇 코드들은 낡아서 제대로 작동하지 않는 것으로 보인다.
+
+실제로 해당 앱을 만든후 화면 녹화는 전혀 작동하지 않았다.
+
+```
+electron/js2c/renderer_init.js:13 (electron) The remote module is deprecated. Use https://github.com/electron/remote instead.
+```
+
+remote 모듈이 deprecated 되었다고 다른 것을 쓰라고 한다.
+
+
+
+적당히 빠르게 Electron이 뭔지 감을 잡기에는 괜찮아보인다.
