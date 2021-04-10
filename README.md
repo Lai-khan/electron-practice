@@ -6,5 +6,5 @@ JS Electron 연습 Repository
 
 ## 연습 목록
 
-[Build a Desktop App with Electron in 11 minutes](./Electron Tasting/README.md)
+[Build a Desktop App with Electron in 11 minutes](./electron-tasting/README.md)
 
