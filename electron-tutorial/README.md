@@ -15,5 +15,7 @@ https://www.youtube.com/playlist?list=PLtWy6rdN1yBntIyLeNo-fCVR6AaK7vdyl
 
 ## 후기
 
-후기
+Electron에 대해 기초부터 자세하게 흝어볼 수 있어서 좋았지만, 너무 초점이 초보자에게 맞춰져있어서 지루할 수 있다는 생각이 든다.
+
+후반에서 Tray 아이콘까지는 들었지만 객체지향을 적용하는 부분에서는 너무 강의가 늘어지는 것 같아서 해당부분까지만 듣고 정리했다.
 
